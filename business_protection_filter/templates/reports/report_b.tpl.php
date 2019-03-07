@@ -43,7 +43,7 @@
   ///////////////////////
   // COVER
   ?>
-  <div class="front-img" style="background:url('<?php echo drupal_get_path('module', 'business_protection_filter');?>/images/partnership-insurance-report-cover.jpg') no-repeat;"><div class="front-author">Prepared for <?php echo $businessName ?>B</div></div>
+  <div class="front-img" style="background:url('<?php echo drupal_get_path('module', 'business_protection_filter');?>/images/partnership-insurance-report-cover.jpg') no-repeat;"><div class="front-author">Prepared for <?php echo $businessName ?></div></div>
   <pagebreak>
   <?
   ///////////////////////
@@ -80,11 +80,11 @@
     Yours sincerely,<br/>
     <?php echo $brokerName ?>
   </div>
-    <pagebreak>
 
+    <pagebreak>
   <div class="report">
        <?php
-    if(strlen($BrokerProductDetails) >=1){
+    if(strlen($brokerNeedsObj) >=1){
       ?>
     <p>Following an analysis of the businesses financial circumstances and based on the information you have provided, our understanding of the businesses requirements are as follows:</p>
     <h3>Needs and Objectives</h3>
@@ -96,7 +96,7 @@
     <p>It allows the surviving partners retain control of the partnership by buying back the deceased’s share in the firm,<br/><br/>and<br/><br/>It ensures that the deceased’s next of kin are able to turn the deceased’s share immediately into cash at a fair price.</p>
 
     <h3>Partnership Insurance</h3>
-    <p>The purpose of this report is to detail how a partnership insurance arrangement would work to protect <?php echo $businessName?> against the death of a partner and provide the deceased’s next of kin with immediate lump sum.</p>
+    <p>The purpose of this report is to detail how a partnership insurance arrangement would work to protect <?php echo $businessName?> against the death of a partner and provide the deceased’s next of kin with an immediate lump sum.</p>
     <p>This report is based on the answers provided and the selected route chosen through the Business Protection Pathfinder. It is understood that cover is required by <?php echo $businessName?> for partnership insurance.</p>
 
     <h3>Partnership Details</h3>
@@ -136,7 +136,7 @@
     <p>The "Own Life in Trust" method is flexible, in that the beneficiaries can be changed if the partnership insurance arrangement ceases. The plan proceeds will be exempt from tax in the hands of the surviving partners provided certain Revenue conditions are met (See the supporting information section).</p>
 
     <h5>Quantifying the level of cover</h5>
-    <p>The level of cover over all the contracts is the estimated value of the individuals share in the business. The level of cover will also be subject to full medical and financial underwriting.</p>
+    <p>The level of cover is the estimated value of the individuals share in the business. The level of cover will also be subject to full medical and financial underwriting.</p>
     
     <h4>2. Partnership Legal Agreement:</h4>
     <p>The agreement should outline the precise entitlement of each partner’s estate in the event of a partner’s death. All participating partners enter into this agreement.</p>

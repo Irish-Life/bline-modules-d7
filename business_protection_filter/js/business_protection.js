@@ -3,8 +3,6 @@
     var navArray = [['home-screen','Home']];
     var selectedStep = '';
     $( document ).ready(function() {
-        
-
         $(".report-partner-add-btn").click(function () {
             partnersCount++;
             console.log('partnersCount ' + partnersCount);

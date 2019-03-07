@@ -79,7 +79,7 @@
 
   <div class="report">
            <?php
-    if(strlen($BrokerProductDetails) >=1){
+    if(strlen($brokerNeedsObj) >=1){
       ?>
     <p>Following an analysis of the businesses financial circumstances and based on the information you have provided, our understanding of the businesses requirements are as follows:</p>
     <h3>Needs and Objectives</h3>
@@ -116,7 +116,7 @@
       <li>Sum Assured paid to the company <?php echo $businessName?></li>
     </ul>
     <p>The cover will provide an immediate lump sum payment to the company to cover loans that the business may have to repay. </p>
-<pagebreak>
+    <pagebreak>
     <h3>Quantifying the level of cover</h3>
     <p>The level of cover on the contract is estimated as the amount of any outstanding loans personally guaranteed by <?php echo $keyPersonAName ?> or any outstanding loans made by <?php echo $keyPersonAName ?> to the company. The level of cover will also be subject to full medical and financial underwriting.</p>
 
@@ -141,7 +141,7 @@
     <h4>Capital Gains Tax</h4>
     <p><strong>Does not apply.</strong> The proceeds of a company owned plan, paid out on death or disablement, are <u>EXEMPT</u> from Capital Gains Tax.</p>  
     <h4><u>So no tax liability arises for the company on the payment from the plan.</u></h4>
-    <p><u>Taxation of Premium  – Loan Cover (Capital item)</u></p>
+    <p><br/><u>Taxation of Premium  – Loan Cover (Capital item)</u></p>
     <h4>Tax Deductible</h4>
     <p><strong>No.</strong> The premiums are NOT admissible deductions for Corporation Tax.</p>
     <p><i>The tax treatment of the plan benefits will depend on the purpose for which the plan is taken out, whether to cover a “Capital” or “Revenue” type loss. Where the cover is required for two different purposes i.e. loan cover and loss of profits cover, we would recommend two separate plans should be taken out.</i></p>
@@ -150,6 +150,7 @@
   <?php
     if(strlen($BrokerProductDetails) >=1){
       ?>
+    <pagebreak>
     <h3>Conclusion</h3>
     <p>Having considered the options that meet your need / objectives, I am now outlining how the specific features of the product type are suitable to meet your needs and why the product recommended is most suitable.</p>
     <p><?php echo $BrokerProductDetails; ?></p>

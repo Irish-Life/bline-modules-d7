@@ -87,7 +87,7 @@
     <p>Partnership insurance provides the partnership with the necessary funds to protect both sides in the event of a partner’s death:</p>
     <p>It allows the surviving partners retain control of the partnership by buying back the deceased’s share in the firm,<br/><br/>and<br/><br/>It ensures that the deceased’s next of kin are able to turn the deceased’s share immediately into cash at a fair price.</p>
         <?php
-    if(strlen($BrokerProductDetails) >=1){
+    if(strlen($brokerNeedsObj) >=1){
       ?>
     <p>Following an analysis of the businesses financial circumstances and based on the information you have provided, our understanding of the businesses requirements are as follows:</p>
         <?php
@@ -163,11 +163,12 @@
     <p>The proceeds from the sale of the share in the partnership would be liable to CGT in the hands of the personal representatives of the deceased. However a liability to tax would only arise on any increase in the value of the business from the date of death of the partner to the date of sale and, as such, is likely to be small. This should be set out in the legal agreement.</p>
     <h4>Inheritance Tax</h4>
     <p>The value received for the deceased partner’s share in the business could give rise to an inheritance tax liability for the deceased’s estate. As they are selling the share in the business ‘Business Relief’ from Inheritance Tax will not apply.</p>
-    <h4>IN ALL CASES PARTNERS SHOULD SEEK PROFESSIONAL LEGAL AND TAX ADVICE BEFORE PROCEEDING TO ASCERTAIN IF THE ARRANGEMENT IS LIKELY TO BE APPROPRIATE TO THEIR PERSONAL AND BUSINESS CIRCUMSTANCES.</h4>  <pagebreak>
+    <h4>IN ALL CASES PARTNERS SHOULD SEEK PROFESSIONAL LEGAL AND TAX ADVICE BEFORE PROCEEDING TO ASCERTAIN IF THE ARRANGEMENT IS LIKELY TO BE APPROPRIATE TO THEIR PERSONAL AND BUSINESS CIRCUMSTANCES.</h4>  
 
     <?php
     if(strlen($BrokerProductDetails) >=1){
       ?>
+      <pagebreak>
     <h3>Conclusion</h3>
     <p>Having considered the options that meet your need / objectives, I am now outlining how the specific features of the product type are suitable to meet your needs and why the product recommended is most suitable.</p>
     <p><?php echo $BrokerProductDetails; ?></p>

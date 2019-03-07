@@ -126,7 +126,7 @@
       if(strlen($partnerNeedsLevelofCover) <=0){
     ?>
     <p>In this case the level of cover on the contract is related to the company’s profitability. </p>
-    <p>You have chosen the level of cover based on a multiple of <?php echo ($keyPersonBValue ="net" ? ' Net Profit ' : ' Gross Profit ') ?> where <?php echo $keyPersonAName ?> makes a <?php echo $keyPersonBShare ?>% contribution to profit. </p>
+    <p>You have chosen the level of cover based on a multiple of <?php echo ($keyPersonBValue == "net" ? ' Net Profit ' : ' Gross Profit ') ?> where <?php echo $keyPersonAName ?> makes a <?php echo $keyPersonBShare ?>% contribution to profit. </p>
    
     <?php
     }
@@ -147,8 +147,8 @@
     
 
     <h3>Tax Implications</h3>
-    <p>As the purpose of the plan is to protect against loss of profits or replacement costs this is deemed to be a ‘Revenue’ loss and the following tax treatment applies.</p>
-    <table class="drama">
+    <p>As the purpose of the plan is to protect against loss of profits this is deemed to be a ‘Revenue’ item and the following tax treatment applies.</p>
+    <!--<table class="drama">
       <tr>
         <th>Reason for cover</th><th>Sum Assured</th><th>Premium</th>
       </tr>
@@ -156,10 +156,10 @@
         <td>Loss of Profits / Replacement Costs</td><td>Yes – Taxable</td><td>Tax deductible if 4 conditions are met</td>
       </tr>
     </table>
-
+    -->
     <p><u>Taxation of Plan Benefits – Loss of Profits (Revenue item)</u></p>
     <h4>Corporation Tax</h4>
-    <p>If the plan is to protect “loss of profit” (if the profits were earned they would be subject to Corporation Tax) or other “revenue items” such as replacement costs then the proceeds are likely to be treated as a “revenue receipt” or a trading receipt and <u>SUBJECT</u> to Corporation Tax.</p> 
+    <p>As the plan is to protect “loss of profit” (if the profits were earned they would be subject to Corporation Tax) then the proceeds are likely to be treated as a “revenue receipt” or a trading receipt and <u>SUBJECT</u> to Corporation Tax.</p> 
     
     <h4>Capital Gains Tax</h4>
     <p>The proceeds of a company owned plan, paid out on death or disablement, are EXEMPT from Capital Gains Tax.</p>
@@ -170,18 +170,19 @@
     <h4>Tax Deductible for Corporation Tax</h4>
     <p><strong>Yes.</strong> If ALL of the following conditions are met;</p> 
         <ul>
-      <li>The sole relationship is that of employer and employee,</li>
-      <li>The employee has no substantial proprietary interest in the business,</li>
-      <li>The insurance is intended to meet loss of profit resulting from the loss of the services of the employee as distinct from loss of goodwill or other capital loss, and, </li>
-      <li>The plan is a short term insurance, providing only for a sum to be paid in the event of death.</li>
+      <li style="padding-bottom:2px;">The sole relationship is that of employer and employee,</li>
+      <li style="padding-bottom:2px;">The employee has no substantial proprietary interest in the business,</li>
+      <li style="padding-bottom:2px;">The insurance is intended to meet loss of profit resulting from the loss of the services of the employee as distinct from loss of goodwill or other capital loss, and, </li>
+      <li style="padding-bottom:2px;">The plan is a short term insurance, providing only for a sum to be paid in the event of death.</li>
     </ul>
 
-    <p><i>The tax treatment of the plan benefits will depend on the purpose for which the plan is taken out, whether to cover a “Capital” or “Revenue” type loss. Where the cover is required for two different purposes i.e. loan cover and loss of profits cover, we would recommend two separate plans should be taken out.</i></p>
+    <!--<p><i>The tax treatment of the plan benefits will depend on the purpose for which the plan is taken out, whether to cover a “Capital” or “Revenue” type loss. Where the cover is required for two different purposes i.e. loan cover and loss of profits cover, we would recommend two separate plans should be taken out.</i></p>-->
     <p><strong>IN ALL CASES THE CLIENT SHOULD SEEK PROFESSIONAL LEGAL AND TAX ADVICE BEFORE PROCEEDING TO ASCERTAIN IF THE ARRANGEMENT IS LIKELY TO BE APPROPRIATE TO THEIR BUSINESS AND CORPORATE CIRCUMSTANCES.	</strong></p>
 
   <?php
     if(strlen($BrokerProductDetails) >=1){
       ?>
+      <pagebreak>
     <h3>Conclusion</h3>
     <p>Having considered the options that meet your need / objectives, I am now outlining how the specific features of the product type are suitable to meet your needs and why the product recommended is most suitable.</p>
     <p><?php echo $BrokerProductDetails; ?></p>
@@ -202,9 +203,9 @@
     <p><i>The insurance must be related to loss of profits only and it will be necessary to satisfy the Inspector of Taxes that the contingency insured against will genuinely have an adverse effect on the employers business.</i></p>
     <p><i>Premiums on policies taken out to cover loans or other outstanding debts which would become repayable on the death of an employee are not admissible deductions...."</i></p>
    
-    <p><strong>IN ALL CASES THE CLIENT SHOULD SEEK PROFESSIONAL LEGAL AND TAX ADVICE BEFORE PROCEEDING TO ASCERTAIN IF THE ARRANGEMENT IS LIKELY TO BE APPROPRIATE TO THEIR BUSINESS AND CORPORATE CIRCUMSTANCES.	</strong></p>
     <h3><i>Sample Board Resolution</i></h3>
     <p><i>"That the company shall effect a life assurance plan on the life of Mr X in the sum of €XXX,XXX. The purpose of this insurance is to meet the financial loss which the company is likely to suffer in the event of his death or serious illness whilst in the service of the Company.<br/><br/>Mr Y is hereby authorised to complete all necessary documentation on behalf of the company and it is hereby declared that the proceeds of this insurance are intended for the protection of the Company itself and are not for the benefit of Mr X or his family."</p>
+    <p><strong>IN ALL CASES THE CLIENT SHOULD SEEK PROFESSIONAL LEGAL AND TAX ADVICE BEFORE PROCEEDING TO ASCERTAIN IF THE ARRANGEMENT IS LIKELY TO BE APPROPRIATE TO THEIR BUSINESS AND CORPORATE CIRCUMSTANCES.	</strong></p>
 
 
   </div>

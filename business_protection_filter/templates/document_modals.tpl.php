@@ -347,7 +347,7 @@
                 <table class="pdflink alternative">
                     <tr>
                         <td width="12%"><span class="pdf-icon "><i class="fa fa-info-circle" aria-hidden="true"></i></span></td>
-                        <td width="88%"><a href="javascript:void(0)" class="journeyBtn" data-step="21e3"  >Board resolution to be completed by the company</a></td>
+                        <td width="88%"><a href="javascript:void(0)" class="journeyBtn" data-step="213AA3"  >Board resolution to be completed by the company</a></td>
                     </tr>
                 </table>
             </div>

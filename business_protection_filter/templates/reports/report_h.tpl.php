@@ -122,7 +122,7 @@
         }
       ?>  
     </table>
-
+<pagebreak>
     <h3>Structuring the Arrangement</h3>
     <p>The arrangement provides money on the death of a shareholder to allow the surviving shareholders to buy out the deceased’s share in the company from their estate. It is arranged in two steps:</p>
     <h4>1. Life Assurance</h4>
@@ -141,6 +141,7 @@
         <li>the deceased's personal representatives to exercise an option to compel the surviving shareholders to buy the deceased’s share in the firm at the market value.</li>
       </ul>
     <p>If neither side exercise their options then the share is not bought back and goes through the deceased's estate to their next of kin.</p>
+    <pagebreak>
     <h3>Tax Implications</h3>
     <u>Taxation of Plan Benefits – Own Life in Trust</u>
     <h4>Capital Gains Tax (CGT)</h4>
@@ -151,16 +152,16 @@
 
     <h3>Sale of the share in the company by the deceased’s personal representatives</h3>
     <h4>Capital Gains Tax (CGT)</h4>
-    <p>The proceeds from the sale of the share in the company <u>would be liable</u> to CGT in the hands of the personal representatives of the deceased. However a liability to tax would only arise on any increase in the value of the business from the date of death of the shareholder to the date of sale and, as such, is likely to be small. This should be set out in the legal agreement.</p>
+    <p>The proceeds from the sale of the share in the company <u>would be liable</u> to CGT in the hands of the personal representatives of the deceased. However a liability to tax would only arise on any increase in the value of the business from the date of death of the shareholder to the date of sale and, as such, is likely to be small. This time frame should be set out in the legal agreement.</p>
     
     <h4>Inheritance Tax</h4>
     <p>The value received for the deceased shareholders share in the business could give rise to an inheritance tax liability for the deceased’s estate. As they are selling the share in the business ‘Business Relief’ from Inheritance Tax will not apply.</p>
     <h4>IN ALL CASES PARTNERS SHOULD SEEK PROFESSIONAL LEGAL AND TAX ADVICE BEFORE PROCEEDING TO ASCERTAIN IF THE ARRANGEMENT IS LIKELY TO BE APPROPRIATE TO THEIR PERSONAL AND BUSINESS CIRCUMSTANCES.</h4>
     
-    <pagebreak>
+    
   <?php
     if(strlen($BrokerProductDetails) >=1){
-      ?>
+      ?><pagebreak>
     <h3>Conclusion</h3>
     <p>Having considered the options that meet your need / objectives, I am now outlining how the specific features of the product type are suitable to meet your needs and why the product recommended is most suitable.</p>
     <p><?php echo $BrokerProductDetails; ?></p>
@@ -168,7 +169,7 @@
     <?php    
     };
     ?>
-
+<pagebreak>
     
     <h3>Supporting Information</h3>
     <strong>Revenue Clarification on Taxation of Shareholder Protection Insurance</strong>

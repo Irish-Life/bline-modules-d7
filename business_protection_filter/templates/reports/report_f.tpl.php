@@ -141,13 +141,13 @@
       <li>Payer of premium = <?php echo $businessName?></li>
     </ul>
     <p>Sum Assured paid to the company <?php echo $businessName?></p>
-<pagebreak>
-    <h3>Quantifying the level of cover</h3>
+    <i>Quantifying the level of cover</i>
     <p>The level of cover over all the contracts is the estimated value of the individuals share in the company. The level of cover will also be subject to full medical and financial underwriting.</p>
     <p><u>2.	Shareholders Legal Agreement:</u><br/>Each participating shareholder, whose shares are to be bought back on death, completes the legal agreement with the company.</p>
     <p>This allows the company to exercise a call option to compel the deceased’s personal representatives to sell the shares back to it at market value,<br/>or<br/>It allows the deceased’s personal representatives to exercise a put option to compel the company to buy the shares back from them at market value.</p>
   <p>If neither side exercise their options then the shares are not bought back and go through the deceased's estate to their next of kin.</p>
   
+<pagebreak>
   <h3>Requirements</h3>
 
   <p>Certain company law provisions must be satisfied and formal approvals are required. In addition there are a number of conditions that must be satisfied to ensure the buy back of shares from the family of a deceased shareholder can be achieved in a tax efficient manner.</p>
@@ -166,7 +166,7 @@
     <p>Under section 105 (5 ) of the Companies Act 2014  the special resolution will be ineffective if a member holding shares affected by the resolution exercises their voting rights in respect of the shares in favour of the resolution and it would not have been carried without their vote.</p>
     <p>Therefore to pass such a resolution in such circumstances, that shareholder would need to absent themselves from that meeting, and allow the other shareholders to vote through the special resolution with regard to their shareholding. <i>Further detail is outlined in the supporting information section.</i></p>
 
-
+<pagebreak>
     <h3>Tax Implications</h3>
     <h5><u>Taxation of Plan Benefits</u></h5>
 
@@ -191,10 +191,10 @@
     <p>The value received for the deceased shareholders share in the business could give rise to an inheritance tax liability for the deceased’s estate. As they are selling the share in the business ‘Business Relief’ from Inheritance Tax will not apply.</p>
 
     <p><strong>IN ALL CASES SHAREHOLDERS SHOULD SEEK PROFESSIONAL LEGAL AND TAX ADVICE BEFORE PROCEEDING TO ASCERTAIN IF THE ARRANGEMENT IS LIKELY TO BE APPROPRIATE TO THEIR PERSONAL AND CORPORATE CIRCUMSTANCES.</strong></p>
-    <pagebreak>
+    
   <?php
     if(strlen($BrokerProductDetails) >=1){
-      ?>
+      ?><pagebreak>
     <h3>Conclusion</h3>
     <p>Having considered the options that meet your need / objectives, I am now outlining how the specific features of the product type are suitable to meet your needs and why the product recommended is most suitable.</p>
     <p><?php echo $BrokerProductDetails; ?></p>
@@ -219,7 +219,8 @@
     <p>the proposed purchase contract must be made available to any members who request it or alternatively made available for inspection by the members at the registered office of the Company from the date of the notice of the meeting at which the resolution to purchase the shares is proposed to be approved, and at the meeting itself; </p>
     <p>under section 105(5) of the Companies Act 2014 the special resolution will be ineffective if a member holding shares affected by the resolution exercises his voting rights in respect of the shares in favour of the resolution and it would not have been carried without his vote; and</p>
     <p>the terms of such a contract to purchase its own shares may only be subsequently varied revoked, or renewed by a further special resolution.</p>
-    <h4>CAPITAL GAINS TAX TREATMENT ON SALE OF SHARES TO COMPANY</h4>
+    <pagebreak>
+      <h4>CAPITAL GAINS TAX TREATMENT ON SALE OF SHARES TO COMPANY</h4>
     <p>In certain circumstances where a company redeems its shares, any amount paid by the company in excess of the original issue price is treated as a 'distribution' rather than a capital gain.</p>
     <p>The implications of this treatment, with regard to a company purchasing its own shares as a result of a corporate shareholder protection arrangement, would be as follows:</p>
     <p>a) The company would be obliged to apply Dividend Withholding Tax (“DWT”) at the standard rate of 20% on the distribution, and</p>
@@ -237,6 +238,7 @@
       <li>The vendor and his associates combined must have less than 30% of the equity of the company after the purchase.</li>
     </ol>
     <h5>ALL TESTS MUST BE MET TO QUALIFY FOR CAPITAL GAINS TAX TREATMENT.</h5>
+    <pagebreak>
     <h3>TAXATION OF LIFE ASSURANCE POLICIES</h3>
     <h4>PREMIUMS</h4>
     <p>Premiums paid by the Company on Corporate Co-Director's Insurance will, under current Revenue Practice, not be an allowable deduction for Corporation Tax purposes.</p>

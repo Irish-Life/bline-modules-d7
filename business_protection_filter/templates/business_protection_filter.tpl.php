@@ -3,7 +3,7 @@
 </style>
 
 <!-- PAGE 1-->
-<span class="page-1"><small class="leftalign blue">v2.0.8b</small>
+<span class="page-1">
     <div class="header-banner">
         <div class="container ">
             <div class="row center">
@@ -200,7 +200,7 @@
                 <div class="row ">
                     <div class="twelve columns">
                         <div class="grey pt-2 stepper">CLIENT REPORT</div>
-                            <p class="pt-1 pb-1 m-0">Produce a report for your clent expressing an interest in Keyperson Cover - Loan.</p>
+                            <p class="pt-1 pb-1 m-0">Produce a report for your client expressing an interest in Keyperson Cover - Loan.</p>
                             <a class="button button-secondary journeyBtn full-width" href="javascript:void(0)" data-step="211" data-next="report-211"><i class="fa fa-book" aria-hidden="true"></i> Create Report </a>
                     </div>
                 </div>
@@ -232,7 +232,6 @@
                         <li>Payer of premium = company</li>
                         <li>Benefits paid to the company</li>
                     </ul>
-                <p>Typical cover will be between 5 and 10 times salary, or a maximum of 2 times gross profit or 5 times net profit.</p>
                 <a class="button button-primary journeyBtn full-width" href="javascript:void(0)" data-client="company" data-step="212a" data-next="2"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;REQUIREMENTS</a>
         </div>
     </div>
@@ -240,9 +239,9 @@
                 <div class="row ">
                     <div class="twelve columns">
                         <div class="grey pt-2 stepper">CLIENT REPORT</div>
-                            <p class="pt-1 pb-1 m-0">Produce a report for your clent expressing an interest in Comapny Cover for Keyperson Cover - Loss of Profits / Replacement Costs.</p>
+                            <p class="pt-1 pb-1 m-0">Produce a report for your client expressing an interest in Keyperson Cover - Loss of Profits / Replacement Costs.</p>
                             
-                        <p class="pt-1 pb-1 m-0">Select which type of Company Cover for a Keyperson report you would like to create.</p>
+                        <p class="pt-1 pb-1 m-0">Select the reason for this cover to create the Keyperson report:</p>
                             
 
                         <select id="companylossreplaceDropdown" >
@@ -389,7 +388,7 @@
             <div class="row ">
                 <div class="twelve columns">
                     <div class="grey pt-2 stepper">CLIENT REPORT</div>
-                        <p class="pt-1 pb-1 m-0">Produce a report for your clent expressing an interest in Corporate Shareholder Protection.</p>
+                        <p class="pt-1 pb-1 m-0">Produce a report for your client expressing an interest in Corporate Shareholder Protection.</p>
                         
                     <a class="button button-secondary journeyBtn full-width" href="javascript:void(0)" data-step="213AA" data-next="report-213AAa"><i class="fa fa-book" aria-hidden="true"></i> Create 'Corporate Shareholder Protection' Report </a>
                 </div>
@@ -421,8 +420,6 @@
         <div class="twelve columns">
                 <h1 class="pt-1 pb-1">Life Assurance &amp; Shareholder Legal Agreement</h1>
                 <p class="pt-1 pb-1 m-0">Each shareholder takes out a life assurance plan on his / her own life for the benefit of the other shareholders. All of the shareholders who are to benefit from the arrangement are party to the one legal agreement.</p>
-                <p class="pt-1 pb-1 m-0">The legal agreement provides that in the event of the death of a shareholder the surviving shareholders can exercise an option to compel the deceased's personal representatives to sell the shares to them at market value, or the deceased's personal representatives can exercise an option to compel the surviving shareholders to buy the shares back at market value</p>
-                <p class="pt-1 pb-1 m-0">All participating shareholders who want to increase their share enter into this agreement.</p>
                 <p class="pt-1 pb-1 m-0">The Life Assurance can be done in <strong>two ways</strong>:</p>
         </div>
     </div>
@@ -454,7 +451,7 @@
         <div class="row ">
             <div class="twelve columns">
                 <div class="grey pt-2 stepper">CLIENT REPORT</div>
-                    <p class="pt-1 pb-1 m-0">Produce a report for your clent expressing an interest in Personal Shareholder Protection.</p>
+                    <p class="pt-1 pb-1 m-0">Produce a report for your client expressing an interest in Personal Shareholder Protection.</p>
                         <p class="pt-1 pb-1 m-0">Select which type of Personal Shareholder Protection report you would like to create.</p>
                         <select id="personalshareholderDropdown" >
                             <option value="life">Life of Another</option>

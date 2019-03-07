@@ -9,7 +9,7 @@
         <div class="container ">
             <div class="row center">
                 <div class="twelve columns white "><h1 class="white pt-5 pb-5">Client Information</h1></div>
-                <div class="twelve columns white "><p class="white pb-1">‘Enter your clients information in order to generate a personalised.</p></div>
+                <div class="twelve columns white "><p class="white pb-1">Enter your clients information in order to generate a personalised report.</p></div>
             </div>
         </div>
     </div>
@@ -168,7 +168,7 @@
         <div class="container ">
             <div class="row center">
                 <div class="twelve columns white "><h1 class="white pt-5 pb-5">Client Information</h1></div>
-                <div class="twelve columns white "><p class="white pb-1">‘Enter your clients information in order to generate a personalised.</p></div>
+                <div class="twelve columns white "><p class="white pb-1">Enter your clients information in order to generate a personalised report.</p></div>
             </div>
         </div>
     </div>
@@ -330,7 +330,7 @@
         <div class="container ">
             <div class="row center">
                 <div class="twelve columns white "><h1 class="white pt-5 pb-5">Client Information</h1></div>
-                <div class="twelve columns white "><p class="white pb-1">‘Enter your clients information in order to generate a personalised.</p></div>
+                <div class="twelve columns white "><p class="white pb-1">Enter your clients information in order to generate a personalised report.</p></div>
             </div>
         </div>
     </div>
@@ -425,7 +425,7 @@
         <div class="container ">
             <div class="row center">
                 <div class="twelve columns white "><h1 class="white pt-5 pb-5">Client Information</h1></div>
-                <div class="twelve columns white "><p class="white pb-1">‘Enter your clients information in order to generate a personalised.</p></div>
+                <div class="twelve columns white "><p class="white pb-1">Enter your clients information in order to generate a personalised report.</p></div>
             </div>
         </div>
     </div>
@@ -491,12 +491,12 @@
                             <option value="net">Net Profit</option>
                         </select>
                 </div>
-                <div class="row ">
-                <div class="twelve columns">    
-                    <label for="rd-partnerNeedsLevelofCover">Reason for this level of cover</label>
-                    <textarea class="u-full-width" placeholder="If the level of cover is not related to the keypersons salary then detail the reason for the chosen level of cover change" id="rd-partnerNeedsLevelofCover"></textarea>
-                </div>
-            </div>
+                <!--<div class="row ">
+                    <div class="twelve columns">    
+                        <label for="rd-partnerNeedsLevelofCover">Reason for this level of cover</label>
+                        <textarea class="u-full-width" placeholder="If the level of cover is not related to the keypersons percentage(%) contribution to profit then detail the reason for the chosen level of cover." id="rd-partnerNeedsLevelofCover"></textarea>
+                    </div>
+                </div>-->
             </div>
             
 
@@ -535,7 +535,7 @@
         <div class="container ">
             <div class="row center">
                 <div class="twelve columns white "><h1 class="white pt-5 pb-5">Client Information</h1></div>
-                <div class="twelve columns white "><p class="white pb-1">‘Enter your clients information in order to generate a personalised.</p></div>
+                <div class="twelve columns white "><p class="white pb-1">Enter your clients information in order to generate a personalised report.</p></div>
             </div>
         </div>
     </div>
@@ -602,12 +602,12 @@
                     <label for="re-partner2Share">What is the multiple of salary?</label>
                     <input class="u-full-width" type="number" max="100" min="0" maxlength="3" placeholder="e.g. 5" id="re-partner2Share">
                 </div>
-                <div class="row ">
-                <div class="twelve columns">    
-                    <label for="re-partnerNeedsLevelofCover">Reason for this level of cover</label>
-                    <textarea class="u-full-width" placeholder="If the level of cover is not related to the keypersons salary then detail the reason for the chosen level of cover change" id="re-partnerNeedsLevelofCover"></textarea>
-                </div>
-            </div>
+                <!--<div class="row ">
+                    <div class="twelve columns">    
+                        <label for="re-partnerNeedsLevelofCover">Reason for this level of cover</label>
+                        <textarea class="u-full-width" placeholder="If the level of cover is not related to the keypersons salary then detail the reason for the chosen level of cover change" id="re-partnerNeedsLevelofCover"></textarea>
+                    </div>
+                </div>-->
             </div>
             
 
@@ -647,7 +647,7 @@
         <div class="container ">
             <div class="row center">
                 <div class="twelve columns white "><h1 class="white pt-5 pb-5">Client Information</h1></div>
-                <div class="twelve columns white "><p class="white pb-1">‘Enter your clients information in order to generate a personalised.</p></div>
+                <div class="twelve columns white "><p class="white pb-1">Enter your clients information in order to generate a personalised report.</p></div>
             </div>
         </div>
     </div>
@@ -809,7 +809,7 @@
         <div class="container ">
             <div class="row center">
                 <div class="twelve columns white "><h1 class="white pt-5 pb-5">Client Information</h1></div>
-                <div class="twelve columns white "><p class="white pb-1">‘Enter your clients information in order to generate a personalised.</p></div>
+                <div class="twelve columns white "><p class="white pb-1">Enter your clients information in order to generate a personalised report.</p></div>
             </div>
         </div>
     </div>
