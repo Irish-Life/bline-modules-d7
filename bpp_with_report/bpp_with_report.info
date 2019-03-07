@@ -1,0 +1,4 @@
+name = "Business Protection Pathfinder with Report"
+description = "Business Protection Pathfinder with Report"
+core = "7.x"
+package = "bline"
